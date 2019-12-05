@@ -3459,8 +3459,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L2</name>
-      <point x="11.9" y="5.55"/>
-      <text>Tick Fix</text>
+      <point x="11.9" y="5.6"/>
+      <text>Optional Tick Fix</text>
       <font name="Tahoma" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
@@ -5956,7 +5956,7 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L2</name>
-      <point x="12.15" y="7.1"/>
+      <point x="12.25" y="7.1"/>
       <text>B (B+2)</text>
       <font name="Tahoma" size="20" style="0"/>
       <color hex="000000"/>
@@ -8978,8 +8978,8 @@
     </diylc.misc.Label>
     <diylc.misc.Label>
       <name>L5</name>
-      <point x="20.45" y="10.55"/>
-      <text>All metal film (brown) resistors 1/2 watt 1% unless specified</text>
+      <point x="20.75" y="10.55"/>
+      <text>All metal film (brown) resistors RN65 or RN70 </text>
       <font name="Tahoma" size="14" style="0"/>
       <color hex="000000"/>
       <center>false</center>
@@ -10737,40 +10737,73 @@
       <font name="Dialog" size="34" style="1"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
-      <value>Assume this layout is outdated. Please download the latest from https://github.com/colganr/steel-string-singer-sn-002/tree/master/Circuit</value>
+      <value>Assume this layout is outdated. Please download the latest from https://github.com/colganr/fender-deluxe-reverb/tree/master/Layout</value>
     </diylc.misc.WrapLabel>
+    <diylc.misc.Label>
+      <name>L13</name>
+      <point x="7.1" y="6.9"/>
+      <text>Wirewound</text>
+      <font reference="../../diylc.misc.Label[7]/font"/>
+      <color hex="cccccc"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L15</name>
+      <point x="7.85" y="6.9"/>
+      <text>Wirewound</text>
+      <font reference="../../diylc.misc.Label[7]/font"/>
+      <color hex="cccccc"/>
+      <center>false</center>
+      <horizontalAlignment>CENTER</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>L16</name>
+      <point x="21.4" y="10.65"/>
+      <text>1/2 watt 1% unless specified</text>
+      <font reference="../../diylc.misc.Label[257]/font"/>
+      <color hex="000000"/>
+      <center>false</center>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
   </components>
   <groups>
+    <set>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[4]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
+    </set>
     <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
       <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[4]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[3]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[2]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[4]"/>
     </set>
     <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[16]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[15]"/>
-    </set>
-    <set>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[3]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
     </set>
     <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
       <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[2]"/>
     </set>
     <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[2]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[2]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[4]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[3]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[2]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[3]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label"/>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[3]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
     </set>
   </groups>
   <lockedLayers/>
