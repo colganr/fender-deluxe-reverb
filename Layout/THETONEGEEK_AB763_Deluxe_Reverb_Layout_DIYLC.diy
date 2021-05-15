@@ -2,7 +2,7 @@
 <project>
   <fileVersion>
     <major>4</major>
-    <minor>5</minor>
+    <minor>17</minor>
     <build>0</build>
   </fileVersion>
   <title>AB763 Deluxe Reverb</title>
@@ -54,6 +54,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_30</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Eyelet>
       <name>Eyelet50</name>
@@ -195,6 +196,7 @@
       <angle>50</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="2.8" y="8.78"/>
         <point x="2.9" y="9.105"/>
@@ -221,7 +223,10 @@
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
       <drawCoordinates>true</drawCoordinates>
+      <xType>Numbers</xType>
       <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
       <mode>TwoPoints</mode>
       <type>SQUARE</type>
     </diylc.boards.BlankBoard>
@@ -241,6 +246,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
@@ -276,6 +282,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
@@ -293,6 +300,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.boards.BlankBoard>
       <name>Dog House Board</name>
@@ -308,7 +316,10 @@
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
       <drawCoordinates>true</drawCoordinates>
+      <xType>Numbers</xType>
       <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
       <mode>TwoPoints</mode>
       <type>SQUARE</type>
     </diylc.boards.BlankBoard>
@@ -326,6 +337,10 @@
       <borderColor hex="ada47d"/>
       <coordinateColor hex="b6b6b6"/>
       <drawCoordinates>true</drawCoordinates>
+      <xType>Numbers</xType>
+      <coordinateOrigin>Top_Left</coordinateOrigin>
+      <coordinateDisplay>One_Side</coordinateDisplay>
+      <yType>Letters</yType>
       <mode>TwoPoints</mode>
       <type>SQUARE</type>
     </diylc.boards.BlankBoard>
@@ -1149,6 +1164,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="150.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -1172,6 +1188,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1196,6 +1213,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1220,6 +1238,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="250.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -1243,6 +1262,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1267,6 +1287,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1291,6 +1312,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.5" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1315,6 +1337,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.5" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1339,6 +1362,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1362,6 +1386,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1379,6 +1404,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1396,6 +1422,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.AxialElectrolyticCapacitor>
       <name>25uF  25v</name>
@@ -1415,6 +1442,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1438,6 +1466,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1455,6 +1484,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.RadialCeramicDiskCapacitor>
       <name>C1</name>
@@ -1474,6 +1504,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="500.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -1497,6 +1528,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="820.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1521,6 +1553,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="2.2" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1545,6 +1578,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1568,6 +1602,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.AxialElectrolyticCapacitor>
       <name>25uF  25v</name>
@@ -1587,6 +1622,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1610,6 +1646,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1627,6 +1664,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1644,6 +1682,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -1663,6 +1702,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1684,6 +1724,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1700,6 +1741,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -1719,6 +1761,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1743,6 +1786,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1767,6 +1811,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1791,6 +1836,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="2.2" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1815,6 +1861,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="820.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1839,6 +1886,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="2.7" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -1863,6 +1911,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1886,6 +1935,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.AxialElectrolyticCapacitor>
       <name>25uF  25v</name>
@@ -1905,6 +1955,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -1928,6 +1979,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1945,6 +1997,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -1962,6 +2015,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -1981,6 +2035,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2005,6 +2060,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="0.02" unit="uF"/>
       <voltage>_63V</voltage>
@@ -2028,6 +2084,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="0.01" unit="uF"/>
       <voltage>_63V</voltage>
@@ -2051,6 +2108,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="0.01" unit="uF"/>
       <voltage>_63V</voltage>
@@ -2074,6 +2132,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2098,6 +2157,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2122,6 +2182,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="25.0" unit="V"/>
@@ -2147,6 +2208,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2169,6 +2231,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -2186,6 +2249,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -2205,6 +2269,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2229,6 +2294,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2253,6 +2319,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="820.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2277,6 +2344,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="82.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2301,6 +2369,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2325,6 +2394,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2349,6 +2419,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -2371,6 +2442,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Jumper>
       <name>J2</name>
@@ -2386,7 +2458,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -2403,7 +2477,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -2420,7 +2496,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.HookupWire>
@@ -2439,6 +2517,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -2456,6 +2535,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W4</name>
@@ -2473,6 +2553,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -2490,6 +2571,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.RadialCeramicDiskCapacitor>
       <name>C1</name>
@@ -2509,6 +2591,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="0.02" unit="uF"/>
       <voltage>_63V</voltage>
@@ -2530,6 +2613,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -2547,6 +2631,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.AxialElectrolyticCapacitor>
       <name>16uF  450v</name>
@@ -2566,6 +2651,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="16.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="450.0" unit="V"/>
@@ -2591,6 +2677,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="16.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="500.0" unit="V"/>
@@ -3107,7 +3194,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -3124,7 +3213,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.passive.Resistor>
@@ -3145,6 +3236,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="3.0" unit="W"/>
@@ -3169,6 +3261,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="3.0" unit="W"/>
@@ -3191,6 +3284,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -3208,6 +3302,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3217,6 +3312,7 @@
       <angle>320</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="21.0" y="9.0"/>
         <point x="21.41" y="8.97"/>
@@ -3246,6 +3342,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -3263,6 +3360,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
@@ -3280,6 +3378,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -3297,6 +3396,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3314,6 +3414,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3331,6 +3432,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3348,6 +3450,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3357,6 +3460,7 @@
       <angle>320</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="19.4" y="9.0"/>
         <point x="19.81" y="8.97"/>
@@ -3386,6 +3490,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -3403,6 +3508,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
@@ -3420,6 +3526,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -3437,6 +3544,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3454,6 +3562,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3471,6 +3580,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3488,6 +3598,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3528,6 +3639,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3545,6 +3657,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3562,6 +3675,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3571,6 +3685,7 @@
       <angle>320</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="14.6" y="8.95"/>
         <point x="15.01" y="8.92"/>
@@ -3600,6 +3715,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -3617,6 +3733,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
@@ -3634,6 +3751,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -3651,6 +3769,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3668,6 +3787,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3685,6 +3805,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3694,6 +3815,7 @@
       <angle>320</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="12.45" y="8.95"/>
         <point x="12.86" y="8.92"/>
@@ -3723,6 +3845,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -3740,6 +3863,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
@@ -3757,6 +3881,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -3774,6 +3899,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3791,6 +3917,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3808,6 +3935,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3825,6 +3953,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V1</name>
@@ -3834,6 +3963,7 @@
       <angle>320</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="10.6" y="8.95"/>
         <point x="11.01" y="8.92"/>
@@ -3863,6 +3993,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -3880,6 +4011,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W27</name>
@@ -3915,6 +4047,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -3932,6 +4065,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -3949,6 +4083,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.tube.TubeSocket>
       <name>V4</name>
@@ -3958,6 +4093,7 @@
       <angle>50</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="5.4" y="8.8"/>
         <point x="5.5" y="9.125"/>
@@ -3978,6 +4114,7 @@
       <angle>50</angle>
       <color hex="f7f7ef"/>
       <mount>PCB</mount>
+      <labelColor hex="acaca7"/>
       <controlPoints>
         <point x="7.3" y="8.8"/>
         <point x="7.4" y="9.125"/>
@@ -4006,6 +4143,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W13</name>
@@ -4023,6 +4161,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W14</name>
@@ -4040,6 +4179,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W34</name>
@@ -4057,6 +4197,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W35</name>
@@ -4094,6 +4235,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.5" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -4116,6 +4258,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>Grid Stopper V4</name>
@@ -4135,6 +4278,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.5" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -4806,6 +4950,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -4823,6 +4968,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>470 5W</name>
@@ -4842,6 +4988,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="3.0" unit="W"/>
@@ -4866,6 +5013,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="5.0" unit="W"/>
@@ -4886,7 +5034,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -4903,7 +5053,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -4920,7 +5072,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.HookupWire>
@@ -4939,6 +5093,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -4956,6 +5111,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -4973,6 +5129,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -4990,6 +5147,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W53</name>
@@ -5007,6 +5165,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -5024,6 +5183,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -5108,6 +5268,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W52</name>
@@ -5125,6 +5286,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W51</name>
@@ -5142,6 +5304,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W46</name>
@@ -5159,6 +5322,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W47</name>
@@ -5176,6 +5340,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W48</name>
@@ -5193,6 +5358,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W45</name>
@@ -5210,6 +5376,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W59</name>
@@ -5230,6 +5397,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W60</name>
@@ -5247,6 +5415,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_16</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.PotentiometerPanel>
       <name>Normal Volume</name>
@@ -5816,6 +5985,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -5837,6 +6007,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_24</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -5856,6 +6027,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -5880,6 +6052,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -5901,6 +6074,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -5920,6 +6094,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -5961,6 +6136,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -5985,6 +6161,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="68.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -6024,6 +6201,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
@@ -6041,6 +6219,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Jumper>
       <name>J2</name>
@@ -6058,6 +6237,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.HookupWire>
@@ -6076,6 +6256,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L2</name>
@@ -6236,6 +6417,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6253,6 +6435,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6270,6 +6453,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W11</name>
@@ -6287,6 +6471,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L2</name>
@@ -6315,6 +6500,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W11</name>
@@ -6332,6 +6518,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6349,6 +6536,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6366,6 +6554,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6383,6 +6572,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6400,6 +6590,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
@@ -6417,6 +6608,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W2</name>
@@ -6434,6 +6626,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6451,6 +6644,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6468,6 +6662,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6485,6 +6680,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6502,6 +6698,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -6518,6 +6715,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Jumper>
       <name>J2</name>
@@ -6533,7 +6731,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.HookupWire>
@@ -6552,6 +6752,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6572,6 +6773,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W12</name>
@@ -6589,6 +6791,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -6606,6 +6809,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>470  2W</name>
@@ -6625,6 +6829,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="2.0" unit="W"/>
@@ -6649,6 +6854,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value></value>
       <markerColor hex="dddddd"/>
     </diylc.semiconductors.DiodePlastic>
@@ -6670,6 +6876,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="100.0" unit="V"/>
@@ -6693,6 +6900,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W51</name>
@@ -6728,6 +6936,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Jumper>
       <name>J2</name>
@@ -6743,7 +6952,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.shapes.Ellipse>
@@ -6776,6 +6987,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W51</name>
@@ -6793,6 +7005,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.shapes.Ellipse>
       <name>ELL2</name>
@@ -7013,7 +7226,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -7030,7 +7245,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.misc.Label>
@@ -7071,6 +7288,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W58</name>
@@ -7088,6 +7306,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_18</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W9</name>
@@ -7105,6 +7324,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W9</name>
@@ -7122,6 +7342,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W28</name>
@@ -7139,6 +7360,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W21</name>
@@ -7156,6 +7378,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W11</name>
@@ -7173,6 +7396,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W11</name>
@@ -7190,6 +7414,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R1</name>
@@ -7209,6 +7434,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -7237,6 +7463,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_30</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -7272,6 +7499,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W1</name>
@@ -7288,6 +7516,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L1</name>
@@ -7538,6 +7767,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="10.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -7558,6 +7788,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W31</name>
@@ -7578,6 +7809,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W31</name>
@@ -7598,6 +7830,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W31</name>
@@ -7618,6 +7851,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W9</name>
@@ -7635,6 +7869,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W31</name>
@@ -7651,6 +7886,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.AxialElectrolyticCapacitor>
       <name>.047uF Class Y</name>
@@ -7670,6 +7906,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.047" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="300.0"/>
@@ -7695,6 +7932,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -7719,6 +7957,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -7740,6 +7979,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.Dot>
       <name>Dot2</name>
@@ -7773,7 +8013,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.misc.Label>
@@ -8229,6 +8471,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.passive.AxialElectrolyticCapacitor>
@@ -8249,6 +8492,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="450.0" unit="V"/>
@@ -8307,6 +8551,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="16.0" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="500.0" unit="V"/>
@@ -8341,6 +8586,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L2</name>
@@ -8525,6 +8771,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -8546,6 +8793,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L2</name>
@@ -8686,6 +8934,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="33.0" unit="K"/>
       <power>HALF</power>
       <colorCode>_5_BAND</colorCode>
@@ -8707,6 +8956,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.SolderPad>
       <name>Pad5</name>
@@ -8727,7 +8977,7 @@
       </controlPoints>
       <resistance value="10.0" unit="K"/>
       <orientation>_180</orientation>
-      <taper>LIN</taper>
+      <taper>LOG</taper>
       <bodyDiameter value="1.0" unit="in"/>
       <spacing value="0.3" unit="in"/>
       <lugDiameter value="0.15" unit="in"/>
@@ -8755,6 +9005,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.Resistor>
       <name>R4</name>
@@ -8774,6 +9025,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -8798,10 +9050,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.022" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -8820,6 +9074,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -8857,10 +9112,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.022" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -8879,6 +9136,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -8903,6 +9161,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -8929,10 +9188,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -8951,6 +9212,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -8977,6 +9239,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.047" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
@@ -9010,10 +9273,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.022" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Eyelet>
@@ -9042,6 +9307,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -9066,10 +9332,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.047" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -9088,6 +9356,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9112,6 +9381,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9325,6 +9595,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W3</name>
@@ -9342,6 +9613,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.Label>
       <name>L4</name>
@@ -9398,6 +9670,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.shapes.Ellipse>
       <name>ELL5</name>
@@ -9490,6 +9763,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="50.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -9510,6 +9784,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.passive.RadialCeramicDiskCapacitor>
       <name>C1</name>
@@ -9529,6 +9804,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="47.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -9552,10 +9828,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.003" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -9574,6 +9852,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9600,6 +9879,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
@@ -9623,6 +9903,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9649,6 +9930,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -9671,6 +9953,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W16</name>
@@ -9763,6 +10046,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W20</name>
@@ -9779,6 +10063,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_26</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.HookupWire>
       <name>W22</name>
@@ -9796,6 +10081,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.shapes.Rectangle>
       <name>RECT1</name>
@@ -9866,10 +10152,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.001" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.misc.Label>
@@ -9910,6 +10198,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9936,10 +10225,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -9958,6 +10249,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -9984,10 +10276,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -10006,6 +10300,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -10032,10 +10327,12 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="0.1" unit="uF"/>
       <voltage>_63V</voltage>
       <voltageNew value="600.0" unit="V"/>
       <showOuterFoil>false</showOuterFoil>
+      <outerFoilColor hex="ffffff"/>
       <pinSpacing value="0.1" unit="in"/>
     </diylc.passive.RadialFilmCapacitor>
     <diylc.connectivity.Line>
@@ -10054,6 +10351,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -10157,6 +10455,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_20</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.SolderPad>
       <name>Pad7</name>
@@ -10194,6 +10493,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -10212,6 +10512,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.SolderPad>
@@ -10284,6 +10585,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.SolderPad>
       <name>Pad4</name>
@@ -10319,6 +10621,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.connectivity.SolderPad>
       <name>Pad6</name>
@@ -10345,6 +10648,7 @@
       <lastUpdatePointIndex>-1</lastUpdatePointIndex>
       <gauge>_22</gauge>
       <striped>false</striped>
+      <stripeColor hex="ffff00"/>
     </diylc.connectivity.HookupWire>
     <diylc.misc.WrapLabel>
       <name>L24</name>
@@ -10421,6 +10725,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="3.3" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10445,6 +10750,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="470.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10469,6 +10775,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <pinSpacing value="0.1" unit="in"/>
       <value value="10.0" unit="pF"/>
       <voltage>_63V</voltage>
@@ -10578,6 +10885,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="47.0" unit="R"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10612,7 +10920,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -10629,7 +10939,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -10646,7 +10958,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.connectivity.Jumper>
@@ -10663,7 +10977,9 @@
       <leadColor hex="cccccc"/>
       <display>NAME</display>
       <flipStanding>false</flipStanding>
+      <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <style>SOLID</style>
     </diylc.connectivity.Jumper>
     <diylc.misc.Label>
@@ -10771,6 +11087,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="220.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10795,6 +11112,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="1.0" unit="M"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10819,6 +11137,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="22.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10854,6 +11173,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10878,6 +11198,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10900,6 +11221,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <color hex="000000"/>
       <style>SOLID</style>
       <thickness value="3.0" unit="px"/>
@@ -10926,6 +11248,7 @@
       <flipStanding>false</flipStanding>
       <labelOriantation>Directional</labelOriantation>
       <moveLabel>false</moveLabel>
+      <hideShortLeads>false</hideShortLeads>
       <value value="100.0" unit="K"/>
       <power>HALF</power>
       <powerNew value="0.5" unit="W"/>
@@ -10935,22 +11258,8 @@
   </components>
   <groups>
     <set>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[4]"/>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[4]"/>
-    </set>
-    <set>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[3]"/>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
-    </set>
-    <set>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[280]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[19]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[20]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[282]"/>
-      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[12]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[21]"/>
-      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[18]"/>
-      <diylc.misc.Label reference="../../../components/diylc.misc.Label[281]"/>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[4]"/>
     </set>
     <set>
       <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse"/>
@@ -10958,12 +11267,26 @@
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[15]"/>
     </set>
     <set>
-      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[2]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[281]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[282]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[20]"/>
+      <diylc.misc.Label reference="../../../components/diylc.misc.Label[280]"/>
+      <diylc.shapes.Ellipse reference="../../../components/diylc.shapes.Ellipse[12]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[19]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[21]"/>
+      <diylc.connectivity.Jumper reference="../../../components/diylc.connectivity.Jumper[18]"/>
     </set>
     <set>
-      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet"/>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[3]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[3]"/>
+    </set>
+    <set>
       <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad"/>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet"/>
+    </set>
+    <set>
+      <diylc.connectivity.Eyelet reference="../../../components/diylc.connectivity.Eyelet[2]"/>
+      <diylc.connectivity.SolderPad reference="../../../components/diylc.connectivity.SolderPad[2]"/>
     </set>
   </groups>
   <lockedLayers/>
